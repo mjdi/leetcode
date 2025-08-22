@@ -1,4 +1,3 @@
-
 import leetcode75.dshelper.treenode as tn
 from leetcode75._236.solution import Solution as sol
 
