@@ -81,14 +81,15 @@
 |901.||Monotonic Stack|Online Stock Span|Medium|[link](https://leetcode.com/problems/online-stock-span/description/?envType=study-plan-v2&amp;envId=leetcode-75)|
 
 ### How I created this table (mainly vim fu):
-- Urls
+- Urls (in lc75urls.txt)
     - downloaded .html of "Leetcode 75 Study Plan" webpage
     - corrected formatting with VSCode's Shift-Alt-F
     - grepped for lines with "/editorial/" to find urls of problems
     - swapped out "editorial" (Solution url) for "description"
-    - pasted urls into this md. with vim block mode
+    - pasted urls into this .md with vim block mode
     - removed whitespace/dangling tags with vim regex
 - Category, Name, Difficulty
     - copied study plan text, vim find/replace + macros to format it in steps
-- Numbers
-    - manually visited each page (unfortunately not within study plan .html)
+- Problem Numbers (in lc75nums.txt)
+    - could have webscraped with playwright, but just manually visited and copied (faster)
+    - lc75nums.txt is read by make_missing_prob_num_folders_and_files.py to save repetitive typing
