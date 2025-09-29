@@ -1,12 +1,11 @@
-from leetcode75._933.solution import Solution as sol
+from leetcode75._933.solution import RecentCounter
                 
 class TestClass:
     def test_one(self):
-        assert == sol.
-
-    def test_two(self):
-        assert == sol.
-
-    def test_three(self):
-        assert == sol.
-
+        rc = RecentCounter()
+        pings = [None]
+        pings.append(rc.ping(1))
+        pings.append(rc.ping(100))
+        pings.append(rc.ping(3001))
+        pings.append(rc.ping(3002))
+        assert [None,1,2,3,3] == pings
