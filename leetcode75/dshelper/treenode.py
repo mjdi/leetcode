@@ -13,34 +13,41 @@ def create_binary_tree(nodes: Optional[List]) -> Optional[TreeNode]:
         return None
     
     root = TreeNode(nodes.pop(0))
-    level_nodes = [root]
+    parent_nodes = [root]
     
     level = 1
     while nodes:
-        new_level_nodes = []
+        new_parent_nodes = []
     
         pow2 = 2 ** (level)
-        node_vals = nodes[0:pow2]
-        nodes = nodes[pow2:]
-    
-        for i in range(0, len(level_nodes)):
-            if (i * 2) < len(node_vals) and node_vals[i * 2] is not None:
-                left = TreeNode(node_vals[i * 2])
-                level_nodes[i].left = left 
-                new_level_nodes.append(left)
-            else:
-                level_nodes[i].left = None
-                new_level_nodes.append(None)
-            
-            if (i * 2 + 1) < len(node_vals) and node_vals[i * 2 + 1] is not None:
-                right = TreeNode(node_vals[i * 2 + 1])
-                level_nodes[i].right = right 
-                new_level_nodes.append(right)
-            else:
-                level_nodes[i].right = None
-                new_level_nodes.append(None)
+        
+        child_vals = nodes[0:pow2]
+        if len(child_vals) < pow2: # append any implicit None-children
+            child_vals = child_vals + (pow2 - len(child_vals)) * [None]
+        
+        nodes = nodes[pow2:] # grab next level's nodes
+        
 
-        level_nodes = new_level_nodes
+        # construct parent-child relationship for each parent node
+        for i in range(0, len(parent_nodes)):
+            # every odd child is a left node
+            if child_vals[i * 2] is not None:
+                left = TreeNode(child_vals[i * 2])
+                parent_nodes[i].left = left 
+                new_parent_nodes.append(left)
+            elif child_vals[i * 2] is None and parent_nodes[i] is not None:
+                parent_nodes[i].left = None
+                new_parent_nodes.append(None)
+            # every even child is a right node
+            if child_vals[i * 2 + 1] is not None:
+                right = TreeNode(child_vals[i * 2 + 1])
+                parent_nodes[i].right = right 
+                new_parent_nodes.append(right)
+            elif child_vals[i * 2 + 1] is None and parent_nodes[i] is not None:
+                parent_nodes[i].right = None
+                new_parent_nodes.append(None)
+
+        parent_nodes = new_parent_nodes
         level += 1
 
     return root
@@ -52,7 +59,7 @@ def write_binary_tree(root: TreeNode) -> str:
     out_levels.append(f'             {root.val:03d}')
     level = 0
     branches.append('        /              \\') 
-    prev_level_nodes = [root.left, root.right]
+    prev_parent_nodes = [root.left, root.right]
     if root.left is not None and root.right is not None:
         out_levels.append(f'    {root.left.val:03d}             {root.right.val:03d}')
     elif root.left is not None:
@@ -69,15 +76,15 @@ def write_binary_tree(root: TreeNode) -> str:
 
         dont_add_last_branches = False
         children_in_next_level = []
-        level_nodes = []
+        parent_nodes = []
         level += 1
         out_levels.append('')
 
-        for node in prev_level_nodes:
+        for node in prev_parent_nodes:
             if node is not None:
-                level_nodes.append(node.left)
+                parent_nodes.append(node.left)
                 children_in_next_level.append(bool(node.left)) 
-                level_nodes.append(node.right)
+                parent_nodes.append(node.right)
                 children_in_next_level.append(bool(node.right))
                 
                 if node.left:
@@ -99,12 +106,12 @@ def write_binary_tree(root: TreeNode) -> str:
                     out_levels[level] += '  '
                 out_levels[level] += '      '
             else:
-                level_nodes.append(None)
-                level_nodes.append(None)
+                parent_nodes.append(None)
+                parent_nodes.append(None)
                 children_in_next_level.append(False) 
                 children_in_next_level.append(False) 
                 
-        prev_level_nodes = level_nodes 
+        prev_parent_nodes = parent_nodes 
 
         # add padding on each side as the level increases
         if any(children_in_next_level):

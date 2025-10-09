@@ -1,7 +1,6 @@
 import leetcode75.dshelper.linked_list as dsh
 # from leetcode75._206.solution import Solution as sol
 from leetcode75._206.solution_recursive import Solution as sol
-import pprint as pp
 import pytest
 
 @pytest.fixture(scope="class")
