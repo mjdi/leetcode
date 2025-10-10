@@ -38,8 +38,8 @@
 |2130.|✅|Linked List|Maximum Twin Sum of a Linked List|Medium|[link](https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/description/?envType=study-plan-v2&amp;envId=leetcode-75)|
 |104.|✅|Binary Tree - DFS|Maximum Depth of Binary Tree|Easy|[link](https://leetcode.com/problems/maximum-depth-of-binary-tree/description/?envType=study-plan-v2&amp;envId=leetcode-75)|
 |872.|✅|Binary Tree - DFS|Leaf-Similar Trees|Easy|[link](https://leetcode.com/problems/leaf-similar-trees/description/?envType=study-plan-v2&amp;envId=leetcode-75)|
-|1448.||Binary Tree - DFS|Count Good Nodes in Binary Tree|Medium|[link](https://leetcode.com/problems/count-good-nodes-in-binary-tree/description/?envType=study-plan-v2&amp;envId=leetcode-75)|
-|437.||Binary Tree - DFS|Path Sum III|Medium|[link](https://leetcode.com/problems/path-sum-iii/description/?envType=study-plan-v2&amp;envId=leetcode-75)|
+|1448.|✅|Binary Tree - DFS|Count Good Nodes in Binary Tree|Medium|[link](https://leetcode.com/problems/count-good-nodes-in-binary-tree/description/?envType=study-plan-v2&amp;envId=leetcode-75)|
+|437.|✅|Binary Tree - DFS|Path Sum III|Medium|[link](https://leetcode.com/problems/path-sum-iii/description/?envType=study-plan-v2&amp;envId=leetcode-75)|
 |1372.||Binary Tree - DFS|Longest ZigZag Path in a Binary Tree|Medium|[link](https://leetcode.com/problems/longest-zigzag-path-in-a-binary-tree/description/?envType=study-plan-v2&amp;envId=leetcode-75)|
 |236.||Binary Tree - DFS|Lowest Common Ancestor of a Binary Tree|Medium|[link](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/description/?envType=study-plan-v2&amp;envId=leetcode-75)|
 |199.||Binary Tree - BFS|Binary Tree Right Side View|Medium|[link](https://leetcode.com/problems/binary-tree-right-side-view/description/?envType=study-plan-v2&amp;envId=leetcode-75)|

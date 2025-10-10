@@ -27,7 +27,6 @@ def create_binary_tree(nodes: Optional[List]) -> Optional[TreeNode]:
         
         nodes = nodes[pow2:] # grab next level's nodes
         
-
         # construct parent-child relationship for each parent node
         for i in range(0, len(parent_nodes)):
             # every odd child is a left node
