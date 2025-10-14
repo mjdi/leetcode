@@ -1,8 +1,7 @@
 from leetcode75.dshelper.treenode import TreeNode
 from typing import Optional
 class Solution:
-    @staticmethod
-    def goodNodes(root: TreeNode) -> int:
+    def goodNodes(self, root: TreeNode) -> int:
         def accum(parent, gncnt, maxval):
             if parent.val >= maxval:
                 gncnt += 1

@@ -2,8 +2,7 @@
 from typing import List
                 
 class Solution:
-    @staticmethod
-    def largestAltitude(gain: List[int]) -> int:
+    def largestAltitude(self, gain: List[int]) -> int:
         prefix = 0
         maxgain = 0
         for i in range(0, len(gain)):

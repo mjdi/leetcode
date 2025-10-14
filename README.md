@@ -1,6 +1,6 @@
 # [Leetcode 75 Study Plan](https://leetcode.com/studyplan/leetcode-75/)
 
-### Done: 34 / 75
+### Done: 36 / 75
 
 |#|Done|Category|Name|Difficulty|Url|
 |-:|----|--------|----|----------|---|

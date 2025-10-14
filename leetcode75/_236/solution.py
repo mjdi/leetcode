@@ -2,7 +2,6 @@
 from leetcode75.dshelper.treenode import TreeNode
 
 class Solution:
-    @staticmethod
-    def lowestCommonAncestor(root: TreeNode, p: TreeNode, q: TreeNode) -> TreeNode:
-        # p and q might be ints not Treenods, look into this
+    def lowestCommonAncestor(self, root: TreeNode, p: TreeNode, q: TreeNode) -> TreeNode:
+        # p and q might be ints not Treenodes, look into this
         return TreeNode()

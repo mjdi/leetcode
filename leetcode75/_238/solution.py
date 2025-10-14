@@ -2,8 +2,7 @@
 from typing import List
                 
 class Solution:
-    @staticmethod
-    def productExceptSelf(nums: List[int]) -> List[int]:
+    def productExceptSelf(self, nums: List[int]) -> List[int]:
         length = len(nums)
         answer = [0] * length
         answer[0] = 1  # nothing left of nums[0]

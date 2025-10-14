@@ -3,8 +3,7 @@ from leetcode75.dshelper.linked_list import ListNode
 from typing import Optional
                 
 class Solution:
-    @staticmethod
-    def deleteMiddle(head: Optional[ListNode]) -> Optional[ListNode]:
+    def deleteMiddle(self, head: Optional[ListNode]) -> Optional[ListNode]:
         if head.next:
             slow, fast = head, head.next
 

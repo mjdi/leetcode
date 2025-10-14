@@ -1,8 +1,7 @@
 # https://leetcode.com/problems/dota2-senate/description/?envType=study-plan-v2&envId=leetcode-75
 from collections import deque 
 class Solution:
-    @staticmethod
-    def predictPartyVictory(senate: str) -> str:
+    def predictPartyVictory(self, senate: str) -> str:
         rcount = senate.count("R")
         dcount = len(senate) - rcount
         r_floating_bans, d_floating_bans = 0, 0

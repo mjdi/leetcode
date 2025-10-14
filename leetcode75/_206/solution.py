@@ -6,8 +6,7 @@ from typing import Optional
 # https://leetcode.com/problems/reverse-linked-list/solutions/6550282/0ms-100-step-by-step-visualization-easiest-to-understand-java-c-python/?envType=study-plan-v2&envId=leetcode-75
 
 class Solution:
-    @staticmethod
-    def reverseList(head: Optional[ListNode]) -> Optional[ListNode]:
+    def reverseList(self, head: Optional[ListNode]) -> Optional[ListNode]:
         prev = None
         curr = head
         while curr is not None:

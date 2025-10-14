@@ -2,8 +2,7 @@
 from typing import List
                 
 class Solution:
-    @staticmethod
-    def findMaxAverage(nums: List[int], k: int) -> float:
+    def findMaxAverage(self, nums: List[int], k: int) -> float:
         # as the window slides, we subtract the previous first num in sliding window
         # and add the newest last num in the window, comparing new average to maxAvg
         currSum = sum(nums[0:k])  # i = 0

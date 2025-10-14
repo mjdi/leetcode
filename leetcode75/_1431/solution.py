@@ -3,7 +3,6 @@
 from typing import List
                 
 class Solution:
-    @staticmethod
-    def kidsWithCandies(candies: List[int], extraCandies: int) -> List[bool]:
+    def kidsWithCandies(self, candies: List[int], extraCandies: int) -> List[bool]:
         return [False if i - max(candies) + extraCandies < 0 else True for i in candies]
 

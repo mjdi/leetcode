@@ -3,6 +3,5 @@ from leetcode75.dshelper.treenode import TreeNode
 from typing import Optional
 
 class Solution:
-    @staticmethod
-    def longestZigZig(root: Optional[TreeNode]) -> int:
+    def longestZigZig(self, root: Optional[TreeNode]) -> int:
         return 0

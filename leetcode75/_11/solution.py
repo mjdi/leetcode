@@ -2,8 +2,7 @@
 from typing import List
                 
 class Solution:
-    @staticmethod
-    def maxArea(height: List[int]) -> int:
+    def maxArea(self, height: List[int]) -> int:
         height
         l, r = 0, len(height) - 1
         maxl, maxr, maxv = height[l], height[r], min(height[l], height[r]) * (r - l)

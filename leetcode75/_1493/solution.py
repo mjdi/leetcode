@@ -2,8 +2,7 @@
 from typing import List
                 
 class Solution:
-    @staticmethod
-    def longestSubarray(nums: List[int]) -> int:
+    def longestSubarray(self, nums: List[int]) -> int:
         left, maxWindow, lastZero = 0, 0, -1
         for right in range(len(nums)):
             if nums[right] == 0:

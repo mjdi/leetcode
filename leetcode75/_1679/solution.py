@@ -2,8 +2,7 @@
 from typing import List
                 
 class Solution:
-    @staticmethod
-    def maxOperations(nums: List[int], k: int) -> int:
+    def maxOperations(self, nums: List[int], k: int) -> int:
         if len(nums) == 1:
             return 0
         nums = sorted(nums)

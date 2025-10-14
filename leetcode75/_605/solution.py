@@ -2,8 +2,7 @@
 from typing import List
                 
 class Solution:
-    @staticmethod
-    def canPlaceFlowers(flowerbed: List[int], n: int) -> bool:
+    def canPlaceFlowers(self, flowerbed: List[int], n: int) -> bool:
         i = 0
         while i < len(flowerbed):
             if i == 0 and flowerbed[0] == 0:

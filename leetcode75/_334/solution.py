@@ -2,8 +2,7 @@
 from typing import List
                 
 class Solution:
-    @staticmethod
-    def increasingTriplet(nums: List[int]) -> bool:
+    def increasingTriplet(self, nums: List[int]) -> bool:
         leng = len(nums)
         if leng < 3:
             return False

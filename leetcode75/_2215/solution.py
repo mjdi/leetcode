@@ -2,8 +2,7 @@
 from typing import List
                 
 class Solution:
-    @staticmethod
-    def findDifference(nums1: List[int], nums2: List[int]) -> List[List[int]]:
+    def findDifference(self, nums1: List[int], nums2: List[int]) -> List[List[int]]:
         list1 = {n: n for n in nums1}
         list2 = {n: n for n in nums2}
         for n in nums2:

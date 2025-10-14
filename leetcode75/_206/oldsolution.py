@@ -4,8 +4,7 @@ from leetcode75.dshelper import ListNode
 from typing import Optional
 
 class Solution:
-    @staticmethod
-    def reverseList(head: Optional[ListNode]) -> Optional[ListNode]:
+    def reverseList(self, head: Optional[ListNode]) -> Optional[ListNode]:
         if head == None:
             return head # []
         if head.next == None:
