@@ -2,8 +2,7 @@
 from typing import List
                 
 class Solution:
-    @staticmethod
-    def uniqueOccurrences(arr: List[int]) -> bool:
+    def uniqueOccurrences(self, arr: List[int]) -> bool:
         h = {}
         for n in arr:
             if n not in h:

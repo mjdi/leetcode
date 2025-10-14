@@ -1,8 +1,7 @@
 # https://leetcode.com/problems/is-subsequence/description/?envType=study-plan-v2&envId=leetcode-75
                 
 class Solution:
-    @staticmethod
-    def isSubsequence(s: str, t: str) -> bool:
+    def isSubsequence(self, s: str, t: str) -> bool:
         if len(s) == 0:
             return True
         if len(s) > len(t):

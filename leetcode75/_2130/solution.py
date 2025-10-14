@@ -3,8 +3,7 @@ from leetcode75.dshelper.linked_list import ListNode
 from typing import Optional
 
 class Solution:
-    @staticmethod
-    def pairsum(head: Optional[ListNode]) -> int:
+    def pairsum(self, head: Optional[ListNode]) -> int:
         # use slow/fast runners to get to middle/end
         # reversing everything to the left of the slow
         prev_slow = None

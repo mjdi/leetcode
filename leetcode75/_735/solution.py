@@ -2,8 +2,7 @@
 from typing import List
                 
 class Solution:
-    @staticmethod
-    def asteroidCollision(asteroids: List[int]) -> List[int]:
+    def asteroidCollision(self, asteroids: List[int]) -> List[int]:
         st = []
         for a in asteroids:
             while st and a < 0 and (last := st[-1]) > 0:

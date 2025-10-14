@@ -2,8 +2,7 @@
 from typing import Optional
                 
 class Solution:
-    @staticmethod
-    def removeStars(s: str) -> str:
+    def removeStars(self, s: str) -> str:
         st = []
         for i in range(len(s)):
             if s[i] == '*':

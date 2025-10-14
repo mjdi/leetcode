@@ -2,11 +2,11 @@ from leetcode75._2542.solution import Solution as sol
                 
 class TestClass:
     def test_one(self):
-        assert == sol.
+        assert == sol().
 
     def test_two(self):
-        assert == sol.
+        assert == sol().
 
     def test_three(self):
-        assert == sol.
+        assert == sol().
 

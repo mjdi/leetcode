@@ -1,8 +1,7 @@
 # https://leetcode.com/problems/merge-strings-alternately/description/?envType=study-plan-v2&envId=leetcode-75
 
 class Solution:
-    @staticmethod
-    def mergeAlternately(word1: str, word2: str) -> str:
+    def mergeAlternately(self, word1: str, word2: str) -> str:
         i, j = 0, 0
         merged = ""
         while i < len(word1) or j < len(word2):

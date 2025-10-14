@@ -1,8 +1,7 @@
 # https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/description/?envType=study-plan-v2&envId=leetcode-75
                 
 class Solution:
-    @staticmethod
-    def maxVowels(s: str, k: int) -> int:
+    def maxVowels(self, s: str, k: int) -> int:
         vowels = 'aeiou'
         if k == 1:  # early return, we just need a single vowel
             return 1 if any([1 if c in vowels else 0 for c in s]) else 0

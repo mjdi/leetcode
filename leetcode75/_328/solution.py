@@ -9,7 +9,7 @@ from leetcode75.dshelper.linked_list import ListNode
 #         self.next = next
 
 class Solution:
-    def oddEvenList(Q_head: Optional[ListNode]) -> Optional[ListNode]:
+    def oddEvenList(self, Q_head: Optional[ListNode]) -> Optional[ListNode]:
         if Q_head is None or Q_head.next is None:
             return Q_head
 

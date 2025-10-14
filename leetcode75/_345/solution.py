@@ -1,8 +1,7 @@
 # https://leetcode.com/problems/reverse-vowels-of-a-string/description/?envType=study-plan-v2&envId=leetcode-75
                 
 class Solution:
-    @staticmethod
-    def reverseVowels(s: str) -> str:
+    def reverseVowels(self, s: str) -> str:
         # two pointers
         ss = list(s)
         vowels = list('aeiouAEIOU')

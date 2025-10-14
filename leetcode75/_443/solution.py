@@ -2,8 +2,7 @@
 from typing import List
                 
 class Solution:
-    @staticmethod
-    def compress(chars: List[str]) -> int:
+    def compress(self, chars: List[str]) -> int:
         if len(chars) == 1:
             return 1
 

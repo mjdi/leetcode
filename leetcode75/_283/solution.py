@@ -2,9 +2,8 @@
 from typing import List
                 
 class Solution:
-    @staticmethod
     # def moveZeroes(nums: List[int]) -> None:
-    def moveZeroes(nums: List[int]) -> List:
+    def moveZeroes(self, nums: List[int]) -> List:
         """
         Do not return anything, modify nums in-place instead.
         """

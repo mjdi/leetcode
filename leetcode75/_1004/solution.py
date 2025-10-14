@@ -2,8 +2,7 @@
 from typing import List
                 
 class Solution:
-    @staticmethod
-    def longestOnes(nums: List[int], k: int) -> int:
+    def longestOnes(self, nums: List[int], k: int) -> int:
 
         # class Solution:
         #     def longestOnes(self, nums: List[int], k: int) -> int:

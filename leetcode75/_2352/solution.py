@@ -3,8 +3,7 @@ from collections import defaultdict
 from typing import List
                 
 class Solution:
-    @staticmethod
-    def equalPairs(grid: List[List[int]]) -> int:
+    def equalPairs(self, grid: List[List[int]]) -> int:
         c = defaultdict(int)
         for col in list(zip(*grid)):  # turn grid into list of col tuples
             c[col] += 1

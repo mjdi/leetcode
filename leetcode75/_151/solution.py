@@ -1,8 +1,7 @@
 # https://leetcode.com/problems/reverse-words-in-a-string/description/?envType=study-plan-v2&envId=leetcode-75
                 
 class Solution:
-    @staticmethod
-    def reverseWords(s: str) -> str:
+    def reverseWords(self, s: str) -> str:
 
         i = len(s) - 1
         word, rev = "", ""
