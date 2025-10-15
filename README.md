@@ -1,6 +1,6 @@
 # [Leetcode 75 Study Plan](https://leetcode.com/studyplan/leetcode-75/)
 
-### Done: 36 / 75
+### Done: 38 / 75
 
 |#|Done|Category|Name|Difficulty|Url|
 |-:|----|--------|----|----------|---|
@@ -40,8 +40,8 @@
 |872.|✅|Binary Tree - DFS|Leaf-Similar Trees|Easy|[link](https://leetcode.com/problems/leaf-similar-trees/description/?envType=study-plan-v2&amp;envId=leetcode-75)|
 |1448.|✅|Binary Tree - DFS|Count Good Nodes in Binary Tree|Medium|[link](https://leetcode.com/problems/count-good-nodes-in-binary-tree/description/?envType=study-plan-v2&amp;envId=leetcode-75)|
 |437.|✅|Binary Tree - DFS|Path Sum III|Medium|[link](https://leetcode.com/problems/path-sum-iii/description/?envType=study-plan-v2&amp;envId=leetcode-75)|
-|1372.||Binary Tree - DFS|Longest ZigZag Path in a Binary Tree|Medium|[link](https://leetcode.com/problems/longest-zigzag-path-in-a-binary-tree/description/?envType=study-plan-v2&amp;envId=leetcode-75)|
-|236.||Binary Tree - DFS|Lowest Common Ancestor of a Binary Tree|Medium|[link](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/description/?envType=study-plan-v2&amp;envId=leetcode-75)|
+|1372.|✅|Binary Tree - DFS|Longest ZigZag Path in a Binary Tree|Medium|[link](https://leetcode.com/problems/longest-zigzag-path-in-a-binary-tree/description/?envType=study-plan-v2&amp;envId=leetcode-75)|
+|236.|✅|Binary Tree - DFS|Lowest Common Ancestor of a Binary Tree|Medium|[link](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/description/?envType=study-plan-v2&amp;envId=leetcode-75)|
 |199.||Binary Tree - BFS|Binary Tree Right Side View|Medium|[link](https://leetcode.com/problems/binary-tree-right-side-view/description/?envType=study-plan-v2&amp;envId=leetcode-75)|
 |1161.||Binary Tree - BFS|Maximum Level Sum of a Binary Tree|Medium|[link](https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree/description/?envType=study-plan-v2&amp;envId=leetcode-75)|
 |700.||Binary Tree - BFS|Search in a Binary Search Tree|Easy|[link](https://leetcode.com/problems/search-in-a-binary-search-tree/description/?envType=study-plan-v2&amp;envId=leetcode-75)|
