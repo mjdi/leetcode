@@ -1,6 +1,6 @@
 # [Leetcode 75 Study Plan](https://leetcode.com/studyplan/leetcode-75/)
 
-### Done: 38 / 75
+### Done: 42 / 75
 
 |#|Done|Category|Name|Difficulty|Url|
 |-:|----|--------|----|----------|---|
@@ -42,10 +42,10 @@
 |437.|✅|Binary Tree - DFS|Path Sum III|Medium|[link](https://leetcode.com/problems/path-sum-iii/description/?envType=study-plan-v2&amp;envId=leetcode-75)|
 |1372.|✅|Binary Tree - DFS|Longest ZigZag Path in a Binary Tree|Medium|[link](https://leetcode.com/problems/longest-zigzag-path-in-a-binary-tree/description/?envType=study-plan-v2&amp;envId=leetcode-75)|
 |236.|✅|Binary Tree - DFS|Lowest Common Ancestor of a Binary Tree|Medium|[link](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/description/?envType=study-plan-v2&amp;envId=leetcode-75)|
-|199.||Binary Tree - BFS|Binary Tree Right Side View|Medium|[link](https://leetcode.com/problems/binary-tree-right-side-view/description/?envType=study-plan-v2&amp;envId=leetcode-75)|
-|1161.||Binary Tree - BFS|Maximum Level Sum of a Binary Tree|Medium|[link](https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree/description/?envType=study-plan-v2&amp;envId=leetcode-75)|
-|700.||Binary Tree - BFS|Search in a Binary Search Tree|Easy|[link](https://leetcode.com/problems/search-in-a-binary-search-tree/description/?envType=study-plan-v2&amp;envId=leetcode-75)|
-|450.||Binary Tree - BFS|Delete Node in a BST|Medium|[link](https://leetcode.com/problems/delete-node-in-a-bst/description/?envType=study-plan-v2&amp;envId=leetcode-75)|
+|199.|✅|Binary Tree - BFS|Binary Tree Right Side View|Medium|[link](https://leetcode.com/problems/binary-tree-right-side-view/description/?envType=study-plan-v2&amp;envId=leetcode-75)|
+|1161.|✅|Binary Tree - BFS|Maximum Level Sum of a Binary Tree|Medium|[link](https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree/description/?envType=study-plan-v2&amp;envId=leetcode-75)|
+|700.|✅|Binary Tree - BFS|Search in a Binary Search Tree|Easy|[link](https://leetcode.com/problems/search-in-a-binary-search-tree/description/?envType=study-plan-v2&amp;envId=leetcode-75)|
+|450.|✅|Binary Tree - BFS|Delete Node in a BST|Medium|[link](https://leetcode.com/problems/delete-node-in-a-bst/description/?envType=study-plan-v2&amp;envId=leetcode-75)|
 |841.||Graphs - DFS|Keys and Rooms|Medium|[link](https://leetcode.com/problems/keys-and-rooms/description/?envType=study-plan-v2&amp;envId=leetcode-75)|
 |547.||Graphs - DFS|Number of Provinces|Medium|[link](https://leetcode.com/problems/number-of-provinces/description/?envType=study-plan-v2&amp;envId=leetcode-75)|
 |1466.||Graphs - DFS|Reorder Routes to Make All Paths Lead to the City Zero|Medium|[link](https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/description/?envType=study-plan-v2&amp;envId=leetcode-75)|

@@ -30,6 +30,26 @@ def create_binary_tree(nodes: Optional[List]) -> Optional[TreeNode]:
         
     return root
 
+def write_binary_tree_as_list(root: TreeNode) -> List:
+    if not root:
+        return []
+    result = []
+    queue = [root]
+    while queue:
+        current = queue.pop(0)
+        if current:
+            result.append(current.val)
+            queue.append(current.left)
+            queue.append(current.right)
+        else:
+            result.append(None)
+    
+    # Remove trailing None values to match typical binary tree list representation
+    while result and result[-1] is None:
+        result.pop()
+    
+    return result
+
 
 def write_binary_tree(root: TreeNode) -> str:
     out_levels = []
