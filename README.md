@@ -1,6 +1,6 @@
 # [Leetcode 75 Study Plan](https://leetcode.com/studyplan/leetcode-75/)
 
-### Done: 42 / 75
+### Done: 45 / 75
 
 |#|Done|Category|Name|Difficulty|Url|
 |-:|----|--------|----|----------|---|
@@ -46,9 +46,9 @@
 |1161.|✅|Binary Tree - BFS|Maximum Level Sum of a Binary Tree|Medium|[link](https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree/description/?envType=study-plan-v2&amp;envId=leetcode-75)|
 |700.|✅|Binary Tree - BFS|Search in a Binary Search Tree|Easy|[link](https://leetcode.com/problems/search-in-a-binary-search-tree/description/?envType=study-plan-v2&amp;envId=leetcode-75)|
 |450.|✅|Binary Tree - BFS|Delete Node in a BST|Medium|[link](https://leetcode.com/problems/delete-node-in-a-bst/description/?envType=study-plan-v2&amp;envId=leetcode-75)|
-|841.||Graphs - DFS|Keys and Rooms|Medium|[link](https://leetcode.com/problems/keys-and-rooms/description/?envType=study-plan-v2&amp;envId=leetcode-75)|
-|547.||Graphs - DFS|Number of Provinces|Medium|[link](https://leetcode.com/problems/number-of-provinces/description/?envType=study-plan-v2&amp;envId=leetcode-75)|
-|1466.||Graphs - DFS|Reorder Routes to Make All Paths Lead to the City Zero|Medium|[link](https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/description/?envType=study-plan-v2&amp;envId=leetcode-75)|
+|841.|✅|Graphs - DFS|Keys and Rooms|Medium|[link](https://leetcode.com/problems/keys-and-rooms/description/?envType=study-plan-v2&amp;envId=leetcode-75)|
+|547.|✅|Graphs - DFS|Number of Provinces|Medium|[link](https://leetcode.com/problems/number-of-provinces/description/?envType=study-plan-v2&amp;envId=leetcode-75)|
+|1466.|✅|Graphs - DFS|Reorder Routes to Make All Paths Lead to the City Zero|Medium|[link](https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/description/?envType=study-plan-v2&amp;envId=leetcode-75)|
 |399.||Graphs - DFS|Evaluate Division|Medium|[link](https://leetcode.com/problems/evaluate-division/description/?envType=study-plan-v2&amp;envId=leetcode-75)|
 |1926.||Graphs - BFS|Nearest Exit from Entrance in Maze|Medium|[link](https://leetcode.com/problems/nearest-exit-from-entrance-in-maze/description/?envType=study-plan-v2&amp;envId=leetcode-75)|
 |994.||Graphs - BFS|Rotting Oranges|Medium|[link](https://leetcode.com/problems/rotting-oranges/description/?envType=study-plan-v2&amp;envId=leetcode-75)|
