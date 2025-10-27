@@ -1,6 +1,6 @@
 # [Leetcode 75 Study Plan](https://leetcode.com/studyplan/leetcode-75/)
 
-### Done: 47 / 75
+### Done: 48 / 75
 
 |#|Done|Category|Name|Difficulty|Url|
 |-:|----|--------|----|----------|---|
@@ -51,7 +51,7 @@
 |399.|✅|Graphs - DFS|Evaluate Division|Medium|[link](https://leetcode.com/problems/evaluate-division/description/?envType=study-plan-v2&amp;envId=leetcode-75)|
 |1466.|✅|Graphs - DFS|Reorder Routes to Make All Paths Lead to the City Zero|Medium|[link](https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/description/?envType=study-plan-v2&amp;envId=leetcode-75)|
 |1926.|✅|Graphs - BFS|Nearest Exit from Entrance in Maze|Medium|[link](https://leetcode.com/problems/nearest-exit-from-entrance-in-maze/description/?envType=study-plan-v2&amp;envId=leetcode-75)|
-|994.||Graphs - BFS|Rotting Oranges|Medium|[link](https://leetcode.com/problems/rotting-oranges/description/?envType=study-plan-v2&amp;envId=leetcode-75)|
+|994.|✅|Graphs - BFS|Rotting Oranges|Medium|[link](https://leetcode.com/problems/rotting-oranges/description/?envType=study-plan-v2&amp;envId=leetcode-75)|
 |215.||Heap / Priority Queue|Kth Largest Element in an Array|Medium|[link](https://leetcode.com/problems/kth-largest-element-in-an-array/description/?envType=study-plan-v2&amp;envId=leetcode-75)|
 |2336.||Heap / Priority Queue|Smallest Number in Infinite Set|Medium|[link](https://leetcode.com/problems/smallest-number-in-infinite-set/description/?envType=study-plan-v2&amp;envId=leetcode-75)|
 |2542.||Heap / Priority Queue|Maximum Subsequence Score|Medium|[link](https://leetcode.com/problems/maximum-subsequence-score/description/?envType=study-plan-v2&amp;envId=leetcode-75)|
