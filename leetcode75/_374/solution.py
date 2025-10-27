@@ -21,17 +21,15 @@ class Binary_Search_Guesser:
   
 class Solution:
     def guessNumber(self, n: int, actual:int) -> int:
-        g = Binary_Search_Guesser(actual)
-        if g.guess(n) == 0:
-            return n
-        si = [1,n] # search interval
-        curr_guess = (si[1] + si[0]) // 2
-        while g.guess(curr_guess) != 0:
-            if g.guess(curr_guess) == 1: # guess is lower than actual
-                si = [curr_guess, si[1]] # search top half
-            else: # guess is higher than actual
-                si = [si[0], curr_guess] # search bottom half
-            curr_guess = (si[1] + si[0]) // 2
-
-        return curr_guess
-
+        bsg = Binary_Search_Guesser(actual)
+        l,r = 1,n 
+        while l <= r:
+            m = (l+r) //2 #
+            g = bsg.guess(m)
+            if g == 0: 
+                return m
+            elif g == -1: # guess is too high
+                r = m - 1
+            else: # guess is too low, g == 1
+                l = m + 1
+        return l

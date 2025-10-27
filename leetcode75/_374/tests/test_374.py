@@ -2,7 +2,7 @@ from leetcode75._374.solution import Solution as sol
                 
 class TestClass:
     def test_one(self):
-        assert 6== sol().guessNumber(10,6)
+        assert 6 == sol().guessNumber(10,6)
 
     def test_two(self):
         assert 1 == sol().guessNumber(1,1)
