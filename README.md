@@ -1,6 +1,6 @@
 # [Leetcode 75 Study Plan](https://leetcode.com/studyplan/leetcode-75/)
 
-### Done: 54 / 75
+### Done: 55 / 75
 
 |#|Done|Category|Name|Difficulty|Url|
 |-:|----|--------|----|----------|---|
@@ -58,7 +58,7 @@
 |2462.|✅|Heap / Priority Queue|Total Cost to Hire K Workers|Medium|[link](https://leetcode.com/problems/total-cost-to-hire-k-workers/description/?envType=study-plan-v2&amp;envId=leetcode-75)|
 |374.||✅Binary Search|Guess Number Higher or Lower|Easy|[link](https://leetcode.com/problems/guess-number-higher-or-lower/description/?envType=study-plan-v2&amp;envId=leetcode-75)|
 |2300.|✅|Binary Search|Successful Pairs of Spells and Potions|Medium|[link](https://leetcode.com/problems/successful-pairs-of-spells-and-potions/description/?envType=study-plan-v2&amp;envId=leetcode-75)|
-|162.||Binary Search|Find Peak Element|Medium|[link](https://leetcode.com/problems/find-peak-element/description/?envType=study-plan-v2&amp;envId=leetcode-75)|
+|162.|✅|Binary Search|Find Peak Element|Medium|[link](https://leetcode.com/problems/find-peak-element/description/?envType=study-plan-v2&amp;envId=leetcode-75)|
 |875.||Binary Search|Koko Eating Bananas|Medium|[link](https://leetcode.com/problems/koko-eating-bananas/description/?envType=study-plan-v2&amp;envId=leetcode-75)|
 |17.||Backtracking|Letter Combinations of a Phone Number|Medium|[link](https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/?envType=study-plan-v2&amp;envId=leetcode-75)|
 |216.||Backtracking|Combination Sum III|Medium|[link](https://leetcode.com/problems/combination-sum-iii/description/?envType=study-plan-v2&amp;envId=leetcode-75)|
