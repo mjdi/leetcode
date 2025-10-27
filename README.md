@@ -1,6 +1,6 @@
 # [Leetcode 75 Study Plan](https://leetcode.com/studyplan/leetcode-75/)
 
-### Done: 45 / 75
+### Done: 46 / 75
 
 |#|Done|Category|Name|Difficulty|Url|
 |-:|----|--------|----|----------|---|
@@ -49,7 +49,7 @@
 |841.|✅|Graphs - DFS|Keys and Rooms|Medium|[link](https://leetcode.com/problems/keys-and-rooms/description/?envType=study-plan-v2&amp;envId=leetcode-75)|
 |547.|✅|Graphs - DFS|Number of Provinces|Medium|[link](https://leetcode.com/problems/number-of-provinces/description/?envType=study-plan-v2&amp;envId=leetcode-75)|
 |1466.|✅|Graphs - DFS|Reorder Routes to Make All Paths Lead to the City Zero|Medium|[link](https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/description/?envType=study-plan-v2&amp;envId=leetcode-75)|
-|399.||Graphs - DFS|Evaluate Division|Medium|[link](https://leetcode.com/problems/evaluate-division/description/?envType=study-plan-v2&amp;envId=leetcode-75)|
+|399.|✅|Graphs - DFS|Evaluate Division|Medium|[link](https://leetcode.com/problems/evaluate-division/description/?envType=study-plan-v2&amp;envId=leetcode-75)|
 |1926.||Graphs - BFS|Nearest Exit from Entrance in Maze|Medium|[link](https://leetcode.com/problems/nearest-exit-from-entrance-in-maze/description/?envType=study-plan-v2&amp;envId=leetcode-75)|
 |994.||Graphs - BFS|Rotting Oranges|Medium|[link](https://leetcode.com/problems/rotting-oranges/description/?envType=study-plan-v2&amp;envId=leetcode-75)|
 |215.||Heap / Priority Queue|Kth Largest Element in an Array|Medium|[link](https://leetcode.com/problems/kth-largest-element-in-an-array/description/?envType=study-plan-v2&amp;envId=leetcode-75)|
