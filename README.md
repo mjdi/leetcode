@@ -1,6 +1,6 @@
 # [Leetcode 75 Study Plan](https://leetcode.com/studyplan/leetcode-75/)
 
-### Done: 57 / 75
+### Done: 58 / 75
 
 |#|Done|Category|Name|Difficulty|Url|
 |-:|----|--------|----|----------|---|
@@ -61,7 +61,7 @@
 |162.|✅|Binary Search|Find Peak Element|Medium|[link](https://leetcode.com/problems/find-peak-element/description/?envType=study-plan-v2&amp;envId=leetcode-75)|
 |875.|✅|Binary Search|Koko Eating Bananas|Medium|[link](https://leetcode.com/problems/koko-eating-bananas/description/?envType=study-plan-v2&amp;envId=leetcode-75)|
 |17.|✅|Backtracking|Letter Combinations of a Phone Number|Medium|[link](https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/?envType=study-plan-v2&amp;envId=leetcode-75)|
-|216.||Backtracking|Combination Sum III|Medium|[link](https://leetcode.com/problems/combination-sum-iii/description/?envType=study-plan-v2&amp;envId=leetcode-75)|
+|216.|✅|Backtracking|Combination Sum III|Medium|[link](https://leetcode.com/problems/combination-sum-iii/description/?envType=study-plan-v2&amp;envId=leetcode-75)|
 |1137.||DP - 1D|N-th Tribonacci Number|Easy|[link](https://leetcode.com/problems/n-th-tribonacci-number/description/?envType=study-plan-v2&amp;envId=leetcode-75)|
 |746.||DP - 1D|Min Cost Climbing Stairs|Easy|[link](https://leetcode.com/problems/min-cost-climbing-stairs/description/?envType=study-plan-v2&amp;envId=leetcode-75)|
 |198.||DP - 1D|House Robber|Medium|[link](https://leetcode.com/problems/house-robber/description/?envType=study-plan-v2&amp;envId=leetcode-75)|
