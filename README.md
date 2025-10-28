@@ -1,6 +1,6 @@
 # [Leetcode 75 Study Plan](https://leetcode.com/studyplan/leetcode-75/)
 
-### Done: 66 / 75
+### Done: 67 / 75
 
 |#|Done|Category|Name|Difficulty|Url|
 |-:|----|--------|----|----------|---|
@@ -63,7 +63,7 @@
 |17.|✅|Backtracking|Letter Combinations of a Phone Number|Medium|[link](https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/?envType=study-plan-v2&amp;envId=leetcode-75)|
 |216.|✅|Backtracking|Combination Sum III|Medium|[link](https://leetcode.com/problems/combination-sum-iii/description/?envType=study-plan-v2&amp;envId=leetcode-75)|
 |1137.|✅|DP - 1D|N-th Tribonacci Number|Easy|[link](https://leetcode.com/problems/n-th-tribonacci-number/description/?envType=study-plan-v2&amp;envId=leetcode-75)|
-|746.||DP - 1D|Min Cost Climbing Stairs|Easy|[link](https://leetcode.com/problems/min-cost-climbing-stairs/description/?envType=study-plan-v2&amp;envId=leetcode-75)|
+|746.|✅|DP - 1D|Min Cost Climbing Stairs|Easy|[link](https://leetcode.com/problems/min-cost-climbing-stairs/description/?envType=study-plan-v2&amp;envId=leetcode-75)|
 |198.||DP - 1D|House Robber|Medium|[link](https://leetcode.com/problems/house-robber/description/?envType=study-plan-v2&amp;envId=leetcode-75)|
 |790.||DP - 1D|Domino and Tromino Tiling|Medium|[link](https://leetcode.com/problems/domino-and-tromino-tiling/description/?envType=study-plan-v2&amp;envId=leetcode-75)|
 |62.||DP - Multidimensional|Unique Paths|Medium|[link](https://leetcode.com/problems/unique-paths/description/?envType=study-plan-v2&amp;envId=leetcode-75)|
