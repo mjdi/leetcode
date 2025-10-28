@@ -1,6 +1,6 @@
 # [Leetcode 75 Study Plan](https://leetcode.com/studyplan/leetcode-75/)
 
-### Done: 60 / 75
+### Done: 61 / 75
 
 |#|Done|Category|Name|Difficulty|Url|
 |-:|----|--------|----|----------|---|
@@ -72,7 +72,7 @@
 |72.||DP - Multidimensional|Edit Distance|Medium|[link](https://leetcode.com/problems/edit-distance/description/?envType=study-plan-v2&amp;envId=leetcode-75)|
 |338.|✅|Bit Manipulation|Counting Bits|Easy|[link](https://leetcode.com/problems/counting-bits/description/?envType=study-plan-v2&amp;envId=leetcode-75)|
 |136.|✅|Bit Manipulation|Single Number|Easy|[link](https://leetcode.com/problems/single-number/description/?envType=study-plan-v2&amp;envId=leetcode-75)|
-|1318.||Bit Manipulation|Minimum Flips to Make a OR b Equal to c|Medium|[link](https://leetcode.com/problems/minimum-flips-to-make-a-or-b-equal-to-c/description/?envType=study-plan-v2&amp;envId=leetcode-75)|
+|1318.|✅|Bit Manipulation|Minimum Flips to Make a OR b Equal to c|Medium|[link](https://leetcode.com/problems/minimum-flips-to-make-a-or-b-equal-to-c/description/?envType=study-plan-v2&amp;envId=leetcode-75)|
 |208.||Trie|Implement Trie (Prefix Tree)|Medium|[link](https://leetcode.com/problems/implement-trie-prefix-tree/description/?envType=study-plan-v2&amp;envId=leetcode-75)|
 |1268.||Trie|Search Suggestions System|Medium|[link](https://leetcode.com/problems/search-suggestions-system/description/?envType=study-plan-v2&amp;envId=leetcode-75)|
 |435.||Intervals|Non-overlapping Intervals|Medium|[link](https://leetcode.com/problems/non-overlapping-intervals/description/?envType=study-plan-v2&amp;envId=leetcode-75)|
