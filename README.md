@@ -1,6 +1,6 @@
 # [Leetcode 75 Study Plan](https://leetcode.com/studyplan/leetcode-75/)
 
-### Done: 63 / 75
+### Done: 64 / 75
 
 |#|Done|Category|Name|Difficulty|Url|
 |-:|----|--------|----|----------|---|
@@ -77,7 +77,7 @@
 |1268.|✅|Trie|Search Suggestions System|Medium|[link](https://leetcode.com/problems/search-suggestions-system/description/?envType=study-plan-v2&amp;envId=leetcode-75)|
 |435.||Intervals|Non-overlapping Intervals|Medium|[link](https://leetcode.com/problems/non-overlapping-intervals/description/?envType=study-plan-v2&amp;envId=leetcode-75)|
 |452.||Intervals|Minimum Number of Arrows to Burst Balloons|Medium|[link](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/description/?envType=study-plan-v2&amp;envId=leetcode-75)|
-|739.||Monotonic Stack|Daily Temperatures|Medium|[link](https://leetcode.com/problems/daily-temperatures/description/?envType=study-plan-v2&amp;envId=leetcode-75)|
+|739.|✅|Monotonic Stack|Daily Temperatures|Medium|[link](https://leetcode.com/problems/daily-temperatures/description/?envType=study-plan-v2&amp;envId=leetcode-75)|
 |901.||Monotonic Stack|Online Stock Span|Medium|[link](https://leetcode.com/problems/online-stock-span/description/?envType=study-plan-v2&amp;envId=leetcode-75)|
 
 ### How I created this table (mainly vim fu):
