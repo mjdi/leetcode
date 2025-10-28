@@ -1,6 +1,6 @@
 # [Leetcode 75 Study Plan](https://leetcode.com/studyplan/leetcode-75/)
 
-### Done: 58 / 75
+### Done: 59 / 75
 
 |#|Done|Category|Name|Difficulty|Url|
 |-:|----|--------|----|----------|---|
@@ -70,7 +70,7 @@
 |1143.||DP - Multidimensional|Longest Common Subsequence|Medium|[link](https://leetcode.com/problems/longest-common-subsequence/description/?envType=study-plan-v2&amp;envId=leetcode-75)|
 |714.||DP - Multidimensional|Best Time to Buy and Sell Stock with Transaction Fee|Medium|[link](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/description/?envType=study-plan-v2&amp;envId=leetcode-75)|
 |72.||DP - Multidimensional|Edit Distance|Medium|[link](https://leetcode.com/problems/edit-distance/description/?envType=study-plan-v2&amp;envId=leetcode-75)|
-|338.||Bit Manipulation|Counting Bits|Easy|[link](https://leetcode.com/problems/counting-bits/description/?envType=study-plan-v2&amp;envId=leetcode-75)|
+|338.|✅|Bit Manipulation|Counting Bits|Easy|[link](https://leetcode.com/problems/counting-bits/description/?envType=study-plan-v2&amp;envId=leetcode-75)|
 |136.||Bit Manipulation|Single Number|Easy|[link](https://leetcode.com/problems/single-number/description/?envType=study-plan-v2&amp;envId=leetcode-75)|
 |1318.||Bit Manipulation|Minimum Flips to Make a OR b Equal to c|Medium|[link](https://leetcode.com/problems/minimum-flips-to-make-a-or-b-equal-to-c/description/?envType=study-plan-v2&amp;envId=leetcode-75)|
 |208.||Trie|Implement Trie (Prefix Tree)|Medium|[link](https://leetcode.com/problems/implement-trie-prefix-tree/description/?envType=study-plan-v2&amp;envId=leetcode-75)|
