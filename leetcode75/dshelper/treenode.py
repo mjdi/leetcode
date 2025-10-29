@@ -9,47 +9,46 @@ class TreeNode:
         self.right = right
 
 def create_binary_tree(nodes: Optional[List]) -> Optional[TreeNode]:
-    if len(nodes) == 0:
+    if not nodes:
         return None
-    
-    root = TreeNode(nodes.pop(0))
-    parent_nodes = [root]
-    
-    level = 1
-    while nodes:
-        new_parent_nodes = []
-    
-        pow2 = 2 ** (level)
+    root = TreeNode(nodes[0])
+    queue = [root]
+    i = 1
+    while queue and i < len(nodes):
+        current = queue.pop(0)
+        if current:
+            if i < len(nodes) and nodes[i] is not None:
+                current.left = TreeNode(nodes[i])
+                queue.append(current.left)
+            i += 1
+            if i < len(nodes) and nodes[i] is not None:
+                current.right = TreeNode(nodes[i])
+                queue.append(current.right)
+            i += 1
+        else:
+            continue
         
-        child_vals = nodes[0:pow2]
-        if len(child_vals) < pow2: # append any implicit None-children
-            child_vals = child_vals + (pow2 - len(child_vals)) * [None]
-        
-        nodes = nodes[pow2:] # grab next level's nodes
-        
-        # construct parent-child relationship for each parent node
-        for i in range(0, len(parent_nodes)):
-            # every odd child is a left node
-            if child_vals[i * 2] is not None:
-                left = TreeNode(child_vals[i * 2])
-                parent_nodes[i].left = left 
-                new_parent_nodes.append(left)
-            elif child_vals[i * 2] is None and parent_nodes[i] is not None:
-                parent_nodes[i].left = None
-                new_parent_nodes.append(None)
-            # every even child is a right node
-            if child_vals[i * 2 + 1] is not None:
-                right = TreeNode(child_vals[i * 2 + 1])
-                parent_nodes[i].right = right 
-                new_parent_nodes.append(right)
-            elif child_vals[i * 2 + 1] is None and parent_nodes[i] is not None:
-                parent_nodes[i].right = None
-                new_parent_nodes.append(None)
-
-        parent_nodes = new_parent_nodes
-        level += 1
-
     return root
+
+def write_binary_tree_as_list(root: TreeNode) -> List:
+    if not root:
+        return []
+    result = []
+    queue = [root]
+    while queue:
+        current = queue.pop(0)
+        if current:
+            result.append(current.val)
+            queue.append(current.left)
+            queue.append(current.right)
+        else:
+            result.append(None)
+    
+    # Remove trailing None values to match typical binary tree list representation
+    while result and result[-1] is None:
+        result.pop()
+    
+    return result
 
 
 def write_binary_tree(root: TreeNode) -> str:

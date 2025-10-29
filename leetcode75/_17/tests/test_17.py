@@ -2,11 +2,11 @@ from leetcode75._17.solution import Solution as sol
                 
 class TestClass:
     def test_one(self):
-        assert == sol().
+        assert ["ad","ae","af","bd","be","bf","cd","ce","cf"] == sol().letterCombinations("23")
 
     def test_two(self):
-        assert == sol().
+        assert ["a","b","c"] == sol().letterCombinations('2')
 
-    def test_three(self):
-        assert == sol().
+    # def test_three(self):
+    #     assert == sol().
 
