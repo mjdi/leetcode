@@ -1,6 +1,6 @@
 # [Leetcode 75 Study Plan](https://leetcode.com/studyplan/leetcode-75/)
 
-### Done: 68 / 75
+### Done: 69 / 75
 
 |#|Done|Category|Name|Difficulty|Url|
 |-:|----|--------|----|----------|---|
@@ -66,7 +66,7 @@
 |746.|✅|DP - 1D|Min Cost Climbing Stairs|Easy|[link](https://leetcode.com/problems/min-cost-climbing-stairs/description/?envType=study-plan-v2&amp;envId=leetcode-75)|
 |198.|✅|DP - 1D|House Robber|Medium|[link](https://leetcode.com/problems/house-robber/description/?envType=study-plan-v2&amp;envId=leetcode-75)|
 |790.||DP - 1D|Domino and Tromino Tiling|Medium|[link](https://leetcode.com/problems/domino-and-tromino-tiling/description/?envType=study-plan-v2&amp;envId=leetcode-75)|
-|62.||DP - Multidimensional|Unique Paths|Medium|[link](https://leetcode.com/problems/unique-paths/description/?envType=study-plan-v2&amp;envId=leetcode-75)|
+|62.|✅|DP - Multidimensional|Unique Paths|Medium|[link](https://leetcode.com/problems/unique-paths/description/?envType=study-plan-v2&amp;envId=leetcode-75)|
 |1143.||DP - Multidimensional|Longest Common Subsequence|Medium|[link](https://leetcode.com/problems/longest-common-subsequence/description/?envType=study-plan-v2&amp;envId=leetcode-75)|
 |714.||DP - Multidimensional|Best Time to Buy and Sell Stock with Transaction Fee|Medium|[link](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/description/?envType=study-plan-v2&amp;envId=leetcode-75)|
 |72.||DP - Multidimensional|Edit Distance|Medium|[link](https://leetcode.com/problems/edit-distance/description/?envType=study-plan-v2&amp;envId=leetcode-75)|
