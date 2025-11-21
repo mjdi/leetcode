@@ -1,6 +1,6 @@
 # [Leetcode 75 Study Plan](https://leetcode.com/studyplan/leetcode-75/)
 
-### Done: 70 / 75
+### Done: 71 / 75
 
 |# ([link to my code](./leetcode75/))|Done|Category|Name|Difficulty|Url|
 |-:|----|--------|----|----------|---|
@@ -68,7 +68,7 @@
 |[790.](./leetcode75/_790)||DP - 1D|Domino and Tromino Tiling|Medium|[link](https://leetcode.com/problems/domino-and-tromino-tiling/description/?envType=study-plan-v2&amp;envId=leetcode-75)|
 |[62.](./leetcode75/_62)|✅|DP - Multidimensional|Unique Paths|Medium|[link](https://leetcode.com/problems/unique-paths/description/?envType=study-plan-v2&amp;envId=leetcode-75)|
 |[1143.](./leetcode75/_1143)|✅|DP - Multidimensional|Longest Common Subsequence|Medium|[link](https://leetcode.com/problems/longest-common-subsequence/description/?envType=study-plan-v2&amp;envId=leetcode-75)|
-|[714.](./leetcode75/_714)||DP - Multidimensional|Best Time to Buy and Sell Stock with Transaction Fee|Medium|[link](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/description/?envType=study-plan-v2&amp;envId=leetcode-75)|
+|[714.](./leetcode75/_714)|✅|DP - Multidimensional|Best Time to Buy and Sell Stock with Transaction Fee|Medium|[link](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/description/?envType=study-plan-v2&amp;envId=leetcode-75)|
 |[72.](./leetcode75/_72)||DP - Multidimensional|Edit Distance|Medium|[link](https://leetcode.com/problems/edit-distance/description/?envType=study-plan-v2&amp;envId=leetcode-75)|
 |[338.](./leetcode75/_338)|✅|Bit Manipulation|Counting Bits|Easy|[link](https://leetcode.com/problems/counting-bits/description/?envType=study-plan-v2&amp;envId=leetcode-75)|
 |[136.](./leetcode75/_136)|✅|Bit Manipulation|Single Number|Easy|[link](https://leetcode.com/problems/single-number/description/?envType=study-plan-v2&amp;envId=leetcode-75)|
